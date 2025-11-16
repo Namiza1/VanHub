@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VanHub - Video & Gambar Gelitik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>VanHub</h1>
+        <p>Tonton video atau lihat gambar 18+ dengan memasukkan kode unik.</p>
+        <p>Tidak memiliki kode? hubungi xxnamixx123456@gmail.com untuk membeli kode.</p>
+    </header>
+
+    <main>
+        <section class="vidseo-input">
+            <h2>Masukkan Kode Konten</h2>
+            <input type="text" id="contentCode" placeholder="Contoh: gelitik1 atau pic001">
+            <button onclick="loadContent()">Tampilkan Konten</button>
+            <p id="errorMessage" class="error-message"></p>
+        </section>
+
+        <section class="content-display">
+            <h2>Tampilan Konten</h2>
+            <div class="content-container">
+                <p id="contentMessage">Masukkan kode untuk menampilkan konten.</p>
+                <video id="videoPlayer" width="100%" height="400" controls style="display:none;">
+                    Maaf, browser Anda tidak mendukung tag video.
+                </video>
+                <img id="imageDisplay" src="" alt="Konten Gambar" style="display:none; max-width:100%; height:auto;">
+                <iframe id="youtubeFrame" width="100%" height="400" frameborder="0" allowfullscreen style="display:none;"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 VanHub. Semua hak cipta dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
