@@ -20,7 +20,7 @@ const videoMap = {
 const imageMap = {
     // KODE: 'Jalur/NamaFile.jpg/png/gif'
     'ticklelana': 'vid/mermaid1.jpg',
-    'posekaki': 'media/images/pose_kaki_unik.png',
+    'tickleanime': 'vid/sample_8a61fbabdd567584c1d52802c02f0c53.jpg',
     'ilustrasi': 'media/images/ilustrasi_fantasi.gif',
     // Tambahkan kode gambar lain di sini
 };
@@ -103,4 +103,5 @@ function loadContent() {
         errorMessage.textContent = `Kode "${contentCode}" tidak ditemukan. Coba kode lain.`;
         contentMessage.textContent = 'Masukkan kode konten yang valid.';
     }
+
 }
