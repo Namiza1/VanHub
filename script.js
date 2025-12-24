@@ -6,7 +6,7 @@
  */
 const videoMap = {
     // KODE: 'Jalur/NamaFile.mp4'
-    'gelitik2': 'vid/b.mp4',
+    'niloudance2': 'vid/nilou2.mp4',
     'tickle2025': 'vid/a.mp4',
     'shinobu1': 'vid/c.mp4',
     'nilou1': 'vid/d.mp4',
@@ -106,4 +106,5 @@ function loadContent() {
     }
 
 }
+
 
