@@ -11,6 +11,7 @@ const videoMap = {
     'shinobu1': 'vid/c.mp4',
     'nilou1': 'vid/d.mp4',
     'ticklegirl': 'vid/e.mp4',
+    'wow': 'vid/tickle.mp4',
     // Tambahkan kode video lain di sini
 };
 
@@ -106,5 +107,6 @@ function loadContent() {
     }
 
 }
+
 
 
